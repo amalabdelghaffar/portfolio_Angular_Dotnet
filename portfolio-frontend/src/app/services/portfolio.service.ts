@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, map } from 'rxjs';
 
 export interface Profile {
   id: number; fullName: string; title: string; email: string;
@@ -32,15 +32,33 @@ export interface CommunityActivity {
 
 @Injectable({ providedIn: 'root' })
 export class PortfolioService {
-  private baseUrl = 'http://localhost:5050/api';
+  private dataUrl = 'assets/data.json';
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
-  getProfile(): Observable<Profile> { return this.http.get<Profile>(`${this.baseUrl}/profile`); }
-  getExperiences(): Observable<Experience[]> { return this.http.get<Experience[]>(`${this.baseUrl}/experiences`); }
-  getEducations(): Observable<Education[]> { return this.http.get<Education[]>(`${this.baseUrl}/educations`); }
-  getSkills(): Observable<Skill[]> { return this.http.get<Skill[]>(`${this.baseUrl}/skills`); }
-  getCertifications(): Observable<Certification[]> { return this.http.get<Certification[]>(`${this.baseUrl}/certifications`); }
-  getLanguages(): Observable<Language[]> { return this.http.get<Language[]>(`${this.baseUrl}/languages`); }
-  getCommunity(): Observable<CommunityActivity[]> { return this.http.get<CommunityActivity[]>(`${this.baseUrl}/community`); }
+  private getData(): Observable<any> {
+    return this.http.get<any>(this.dataUrl);
+  }
+
+  getProfile(): Observable<Profile> {
+    return this.getData().pipe(map(d => d.profile));
+  }
+  getExperiences(): Observable<Experience[]> {
+    return this.getData().pipe(map(d => d.experiences));
+  }
+  getEducations(): Observable<Education[]> {
+    return this.getData().pipe(map(d => d.educations));
+  }
+  getSkills(): Observable<Skill[]> {
+    return this.getData().pipe(map(d => d.skills));
+  }
+  getCertifications(): Observable<Certification[]> {
+    return this.getData().pipe(map(d => d.certifications));
+  }
+  getLanguages(): Observable<Language[]> {
+    return this.getData().pipe(map(d => d.languages));
+  }
+  getCommunity(): Observable<CommunityActivity[]> {
+    return this.getData().pipe(map(d => d.community));
+  }
 }

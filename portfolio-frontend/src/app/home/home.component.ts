@@ -61,24 +61,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
         };
 
         this.portfolioService.getProfile().subscribe({ next: p => { this.profile = p; check(); }, error: check });
-        this.portfolioService.getExperiences().subscribe({
-            next: e => {
-                const fogitsExp: Experience = {
-                    id: 8,
-                    title: "Stage – Odoo 17 & OpenAI",
-                    company: "Fogits",
-                    location: "Sfax, Tunisia",
-                    startDate: "Février 2026",
-                    endDate: "",
-                    isCurrent: true,
-                    description: "Conception et développement d'un module Odoo 17 intelligent capable de prévoir les ventes futures et de générer des insights commerciaux exploitables en exploitant les données internes de l'ERP et les capacités d'analyse de l'API OpenAI.",
-                    technologies: "Odoo 17, Python, ORM Odoo, OpenAI API, OWL Framework, Chart.js, PostgreSQL, Docker, CI/CD (GitLab/GitHub)",
-                    order: 1
-                };
-                this.experiences = [fogitsExp, ...e.filter(exp => exp.id !== 8)];
-                check();
-            }, error: check
-        });
+        this.portfolioService.getExperiences().subscribe({ next: e => { this.experiences = e; check(); }, error: check });
         this.portfolioService.getEducations().subscribe({ next: e => { this.educations = e; check(); }, error: check });
         this.portfolioService.getSkills().subscribe({
             next: s => {

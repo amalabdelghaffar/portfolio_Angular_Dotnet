@@ -1,0 +1,410 @@
+{
+    "profile": {
+        "id": 1,
+        "fullName": "Ben Abdelghaffar AMAL",
+        "title": "Software Engineering Student | Full-Stack Developer",
+        "email": "abdelgaffaramal@gmail.com",
+        "phone": "21 491 299",
+        "location": "Sfax, Tunisia",
+        "about": "Passionate Full-Stack Developer and Software Engineering student with expertise in .NET, Angular, Python, and Odoo. Experienced in ERP development, web platforms, data analysis, and AI/ML solutions. Driven by innovation and committed to building robust, scalable applications.",
+        "githubUrl": "https://github.com/amalabdelghaffar",
+        "linkedinUrl": "https://www.linkedin.com/in/amalbenabdelghaffar/",
+        "avatarUrl": "assets/avatar.png"
+    },
+    "experiences": [
+        {
+            "id": 8,
+            "title": "Stage – Odoo 17 & OpenAI",
+            "company": "Fogits",
+            "location": "Sfax, Tunisia",
+            "startDate": "Février 2026",
+            "endDate": "Présent",
+            "isCurrent": true,
+            "description": "Conception et développement d'un module Odoo 17 intelligent capable de prévoir les ventes futures et de générer des insights commerciaux exploitables en exploitant les données internes de l'ERP et les capacités d'analyse de l'API OpenAI.",
+            "technologies": "Odoo 17, Python, ORM Odoo, OpenAI API, OWL Framework, Chart.js, PostgreSQL, Docker, CI/CD (GitLab/GitHub)",
+            "order": 1
+        },
+        {
+            "id": 1,
+            "title": "Odoo/Python Developer",
+            "company": "DigitalClick",
+            "location": "Safaqis, SF, Tunisia",
+            "startDate": "Avril 2025",
+            "endDate": "Présent",
+            "isCurrent": true,
+            "description": "Développement et maintenance de modules Odoo. Gestion des ERP, CRM, Achat, Ventes, Comptabilité et Inventaire.",
+            "technologies": "Python, Odoo, XML, ERP, CRM",
+            "order": 2
+        },
+        {
+            "id": 2,
+            "title": "Fullstack Developer",
+            "company": "Digital Click",
+            "location": "Sfax, Tunisia",
+            "startDate": "Novembre 2024",
+            "endDate": "Avril 2025",
+            "isCurrent": false,
+            "description": "Développement fullstack avec ASP.NET MVC, SSMS, Entity Framework, Identity et Nuget. Intégration de WordPress, Elementor, WPbakery, SEO, WooCommerce, Brevo et Mailchimp.",
+            "technologies": "ASP.NET, MVC, SSMS, Entity Framework, GIT, DEVEXTREAM, WordPress, Elementor, SEO, WooCommerce",
+            "order": 3
+        },
+        {
+            "id": 3,
+            "title": "WordPress Developer & Microsoft 365 CRM Maintenance",
+            "company": "Amatab",
+            "location": "SFAX, Tunisia",
+            "startDate": "Septembre 2024",
+            "endDate": "Novembre 2024",
+            "isCurrent": false,
+            "description": "Management et développement de sites WordPress. Intégration et configuration de plugins (SMTP, WPForms). Hébergement avec Hostinger. Administration et optimisation des environnements Microsoft 365 (SharePoint, Power Apps, Teams).",
+            "technologies": "WordPress, SMTP, WPForms, Hostinger, Microsoft 365, SharePoint, Power Apps, CRM",
+            "order": 4
+        },
+        {
+            "id": 4,
+            "title": "Data Analysts Manager",
+            "company": "Anavid",
+            "location": "Sfax, Tunisia",
+            "startDate": "Juillet 2023",
+            "endDate": "Juin 2024",
+            "isCurrent": false,
+            "description": "Nettoyage de données, gestion d'équipe, analyse de données, annotation et collection de données. Segmentation, SCRUM, Ubuntu.",
+            "technologies": "Python, Data Analysis, Data Cleaning, Segmentation, SCRUM, Microsoft Excel",
+            "order": 5
+        },
+        {
+            "id": 5,
+            "title": "Intern – Crowd Counting AI",
+            "company": "Anavid",
+            "location": "Sfax, Sakiet Ezzit, Tunisia",
+            "startDate": "Février 2023",
+            "endDate": "Mai 2023",
+            "isCurrent": false,
+            "description": "PFE: Estimation du nombre de personnes dans une foule en utilisant des modèles de deep learning implémentés dans une interface web Flask.",
+            "technologies": "Python, Deep Learning, Flask, Computer Vision",
+            "order": 6
+        },
+        {
+            "id": 6,
+            "title": "Summer Internship – RFM Segmentation",
+            "company": "Optimal Solution",
+            "location": "Sahloul/Sousse, Tunisia",
+            "startDate": "Juillet 2022",
+            "endDate": "Septembre 2022",
+            "isCurrent": false,
+            "description": "Développement d'un module de segmentation RFM des clients sous Odoo 15, avec analyse de données, visualisation et Python.",
+            "technologies": "Odoo 15, Python, Data Analysis, Segmentation, Visualization",
+            "order": 7
+        },
+        {
+            "id": 7,
+            "title": "Web Platform Developer (Laravel/PHP)",
+            "company": "ISIMS",
+            "location": "Sfax, Tunisia",
+            "startDate": "2022",
+            "endDate": "2022",
+            "isCurrent": false,
+            "description": "Développement d'une plateforme web avec Laravel. Architecture MVC, modélisation UML, CRUD, Docker.",
+            "technologies": "Laravel, PHP, MVC, UML, CRUD, Docker",
+            "order": 8
+        }
+    ],
+    "educations": [
+        {
+            "id": 1,
+            "degree": "Software Engineering",
+            "institution": "Institute of Advanced Sciences and Technology",
+            "location": "Sfax, Tunisia",
+            "startDate": "Septembre 2023",
+            "endDate": "En cours",
+            "description": "Formation en ingénierie logicielle avec spécialisation en développement fullstack et technologies modernes.",
+            "order": 1
+        },
+        {
+            "id": 2,
+            "degree": "Licence en Informatique – Big Data & Data Analysis",
+            "institution": "Higher Institute of Computer Science and Multimedia (ISIMS)",
+            "location": "Sfax, Tunisia",
+            "startDate": "Septembre 2020",
+            "endDate": "Juin 2023",
+            "description": "Licence spécialisée en Big Data et analyse de données.",
+            "order": 2
+        },
+        {
+            "id": 3,
+            "degree": "Baccalauréat en Sciences Expérimentales",
+            "institution": "Lycée Menzel Hayet Monastir",
+            "location": "Manzel Hayet, Tunisia",
+            "startDate": "Septembre 2019",
+            "endDate": "Juillet 2020",
+            "description": "Baccalauréat dans la filière sciences expérimentales.",
+            "order": 3
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "Python",
+            "category": "Programming Languages",
+            "level": 90,
+            "icon": "devicon-python-plain"
+        },
+        {
+            "id": 2,
+            "name": "C#",
+            "category": "Programming Languages",
+            "level": 85,
+            "icon": "devicon-csharp-plain"
+        },
+        {
+            "id": 3,
+            "name": "Java",
+            "category": "Programming Languages",
+            "level": 70,
+            "icon": "devicon-java-plain"
+        },
+        {
+            "id": 4,
+            "name": "PHP",
+            "category": "Programming Languages",
+            "level": 75,
+            "icon": "devicon-php-plain"
+        },
+        {
+            "id": 5,
+            "name": "C",
+            "category": "Programming Languages",
+            "level": 65,
+            "icon": "devicon-c-plain"
+        },
+        {
+            "id": 6,
+            "name": "Angular",
+            "category": "Web Development",
+            "level": 85,
+            "icon": "devicon-angularjs-plain"
+        },
+        {
+            "id": 7,
+            "name": "ASP.NET MVC",
+            "category": "Web Development",
+            "level": 85,
+            "icon": "devicon-dotnetcore-plain"
+        },
+        {
+            "id": 8,
+            "name": "Laravel",
+            "category": "Web Development",
+            "level": 75,
+            "icon": "devicon-laravel-plain"
+        },
+        {
+            "id": 9,
+            "name": "Flutter",
+            "category": "Web Development",
+            "level": 60,
+            "icon": "devicon-flutter-plain"
+        },
+        {
+            "id": 10,
+            "name": "WordPress",
+            "category": "Web Development",
+            "level": 80,
+            "icon": "devicon-wordpress-plain"
+        },
+        {
+            "id": 11,
+            "name": "HTML/CSS",
+            "category": "Web Development",
+            "level": 90,
+            "icon": "devicon-html5-plain"
+        },
+        {
+            "id": 12,
+            "name": "JavaScript",
+            "category": "Web Development",
+            "level": 80,
+            "icon": "devicon-javascript-plain"
+        },
+        {
+            "id": 13,
+            "name": "Flask",
+            "category": "Web Development",
+            "level": 75,
+            "icon": "devicon-flask-original"
+        },
+        {
+            "id": 14,
+            "name": "Bootstrap",
+            "category": "Web Development",
+            "level": 85,
+            "icon": "devicon-bootstrap-plain"
+        },
+        {
+            "id": 15,
+            "name": "TensorFlow",
+            "category": "Artificial Intelligence",
+            "level": 75,
+            "icon": "devicon-tensorflow-original"
+        },
+        {
+            "id": 16,
+            "name": "OpenCV",
+            "category": "Artificial Intelligence",
+            "level": 70,
+            "icon": "devicon-opencv-plain"
+        },
+        {
+            "id": 17,
+            "name": "Machine Learning",
+            "category": "Artificial Intelligence",
+            "level": 75,
+            "icon": "fas fa-brain"
+        },
+        {
+            "id": 18,
+            "name": "Deep Learning",
+            "category": "Artificial Intelligence",
+            "level": 70,
+            "icon": "fas fa-network-wired"
+        },
+        {
+            "id": 19,
+            "name": "Git",
+            "category": "Tools & Others",
+            "level": 85,
+            "icon": "devicon-git-plain"
+        },
+        {
+            "id": 20,
+            "name": "Docker",
+            "category": "Tools & Others",
+            "level": 70,
+            "icon": "devicon-docker-plain"
+        },
+        {
+            "id": 21,
+            "name": "SQL",
+            "category": "Tools & Others",
+            "level": 80,
+            "icon": "devicon-mysql-plain"
+        },
+        {
+            "id": 22,
+            "name": "Power BI",
+            "category": "Tools & Others",
+            "level": 70,
+            "icon": "fas fa-chart-bar"
+        },
+        {
+            "id": 23,
+            "name": "Figma",
+            "category": "Tools & Others",
+            "level": 65,
+            "icon": "devicon-figma-plain"
+        },
+        {
+            "id": 24,
+            "name": "Odoo",
+            "category": "Tools & Others",
+            "level": 85,
+            "icon": "fas fa-cogs"
+        },
+        {
+            "id": 25,
+            "name": "Scrum/Kanban",
+            "category": "Methodology",
+            "level": 80,
+            "icon": "fas fa-tasks"
+        }
+    ],
+    "certifications": [
+        {
+            "id": 1,
+            "name": "Introduction to Ethical Hacking and IOT Cybersecurity / IOT Equipment Penetration Test",
+            "issuer": "Certification",
+            "date": "2022",
+            "description": "Certification en cybersécurité éthique et tests de pénétration IoT."
+        },
+        {
+            "id": 2,
+            "name": "Cybersecurity & Smart Factory – Hackathon .01",
+            "issuer": "Hackathon",
+            "date": "2022",
+            "description": "Participation et certification au hackathon Cybersecurity & Smart Factory."
+        },
+        {
+            "id": 3,
+            "name": "Python for Data Science",
+            "issuer": "Online Platform",
+            "date": "2022",
+            "description": "Certification Python orientée data science."
+        },
+        {
+            "id": 4,
+            "name": "First Aid Training",
+            "issuer": "Club CRT-ISIMS",
+            "date": "2022",
+            "description": "Formation aux premiers secours."
+        },
+        {
+            "id": 5,
+            "name": "Digital Marketing",
+            "issuer": "CLUB-Tunivision-ESSTHS",
+            "date": "2022",
+            "description": "Certification en marketing digital."
+        }
+    ],
+    "languages": [
+        {
+            "id": 1,
+            "name": "Arabe",
+            "level": 100,
+            "proficiency": "Langue maternelle"
+        },
+        {
+            "id": 2,
+            "name": "Français",
+            "level": 85,
+            "proficiency": "Courant"
+        },
+        {
+            "id": 3,
+            "name": "Anglais",
+            "level": 75,
+            "proficiency": "Intermédiaire avancé"
+        },
+        {
+            "id": 4,
+            "name": "Allemand",
+            "level": 40,
+            "proficiency": "Notions de base"
+        }
+    ],
+    "community": [
+        {
+            "id": 1,
+            "role": "Vice-Président",
+            "organization": "Junior Chamber International Tunisia",
+            "startDate": "Janvier 2023",
+            "endDate": "Aujourd'hui",
+            "order": 1
+        },
+        {
+            "id": 2,
+            "role": "Secrétaire Général",
+            "organization": "Junior Chamber International Tunisia",
+            "startDate": "Janvier 2021",
+            "endDate": "Décembre 2022",
+            "order": 2
+        },
+        {
+            "id": 3,
+            "role": "Trésorier",
+            "organization": "Tunisian Red Crescent-Club ISIMS",
+            "startDate": "Novembre 2020",
+            "endDate": "Novembre 2021",
+            "order": 3
+        }
+    ]
+}
