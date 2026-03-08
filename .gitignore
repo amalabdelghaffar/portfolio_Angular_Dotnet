@@ -1,0 +1,20 @@
+# .gitignore
+
+# .NET
+bin/
+obj/
+.vs/
+*.db
+*.user
+PortfolioApi/portfolio.db
+
+# Angular
+node_modules/
+dist/
+.angular/
+.vscode/
+
+# Misc
+.DS_Store
+.claude/
+C:/Users/amal/.gemini/antigravity/brain/
